@@ -2,3 +2,9 @@
 
 import pygame, sys
 from pygame.locals import *
+
+#initialize PyGame
+pygame.init() 
+
+# Setup the window to draw on.
+windowSurface = pygame.display.set_mode ((500,400)), 0, 32)

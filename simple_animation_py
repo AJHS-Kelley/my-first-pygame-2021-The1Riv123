@@ -44,16 +44,16 @@ while True:
 
         for b in boxes:
             # move the box data structure
-            if b['dir'].left == DOWNLEFT:
+     if b['dir'].left == DOWNLEFT:
                 b['rect'].left -= MOVESPEED
                 b['rect'].top += MOVESPEED
-            if b['dir'] ==DOWNRIGHT:
+    if b['dir'] ==DOWNRIGHT:
                 b['rect'].left += MOVESPEED
                 b['rect'].top += MOVESPEED
-              if b['dir'] == UPLEFT:
+    if b['dir'] == UPLEFT:
                  b['rect'].left -= MOVESPEED
                 b['rect'].top -= MOVESPEED
-                if b['dir'] == UPRIGHT
+    if b['dir'] == UPRIGHT
                 b['rect'].left += MOVESPEED
                 b['rect'].top -= MOVESPEED
 
@@ -85,3 +85,4 @@ if b['rect'],right > WINDOWWIDTH:
     # Draw the window to the screen.
      pygame.display.update()
      time.sleep(0.02)      
+

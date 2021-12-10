@@ -1,1 +1,13 @@
 #simple animation with pyGame, Jason Rivers, 12/08/21 1:44 PM, v0.0
+
+import pygame, sys, time
+from pygame.locals import *
+
+# Setup pyGame
+pygame.init()
+
+# Setup the window
+WINDOWWIDTH = 400
+WINDOWHEIGHT = 400
+windowSurface = pygame.dusplay.set_mode((WINDOWWIDTH, WINDOWHEIGHT), 0, 32)
+pygame.display.set_caption('Animation Example!')

@@ -1,4 +1,4 @@
-# y First pyGame, Jason Rivers, 12/10/21 1:12:59pm  v0.6
+# my First pyGame, Jason Rivers, 12/10/21 1:12:59pm  v0.6
 
 import pygame, sys
 from pygame.locals import *
